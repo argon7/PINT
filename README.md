@@ -11,7 +11,7 @@ password: estgv160642017
 login: ipvpint@gmail.com<br>
 password: cortisolshot
 
-#PROJECT NAME: PINT
-#PROJECT ID: pint-7f629
+#PROJECT NAME: PINT<br>
+#PROJECT ID: pint-7f629<br>
 #PROJECT:com.example.pint
 
