@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IPV_PINT</string>
+    <!--FIREBASE-->
+        <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+        <string name="facebook_application_id" translatable="false">434490234060035</string>
+        <string name="facebook_login_protocol_scheme" translatable="false">fb434490234060035</string>
+        <!-- Twitter consumer key and secret -->
+    <!--FIREBASE END-->
+
+
+</resources>
