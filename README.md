@@ -1,14 +1,14 @@
 # PINT
 <bold>Informação acerca do projecto<bold>
   
-#SERVER CREDENTIALS
-login: estgv16064@193.137.7.33
+#SERVER CREDENTIALS<br>
+login: estgv16064@193.137.7.33<br>
 password: estgv160642017
 
 #DBNAME:estgv16064
 
-#FIREBASE EMAIL 
-login: ipvpint@gmail.com
+#FIREBASE EMAIL<br> 
+login: ipvpint@gmail.com<br>
 password: cortisolshot
 
 #PROJECT NAME: PINT
