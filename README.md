@@ -5,7 +5,7 @@
 login: estgv16064@193.137.7.33<br>
 password: cortisolshot
 
-#DB - mysql/phpmyadmin
+#DB - mysql/phpmyadmin<br>
 login: estgv16064<br>
 password: cortisolshot
 
