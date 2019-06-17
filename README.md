@@ -3,9 +3,11 @@
   
 #SERVER CREDENTIALS<br>
 login: estgv16064@193.137.7.33<br>
-password: estgv160642017
+password: cortisolshot
 
-#DBNAME:estgv16064
+#DB - mysql/phpmyadmin
+login: estgv16064<br>
+password: cortisolshot
 
 #FIREBASE EMAIL<br> 
 login: ipvpint@gmail.com<br>
