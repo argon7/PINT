@@ -1,4 +1,4 @@
-package com.example.ipv_pint;
+package com.example.pint;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.ipv_pint", appContext.getPackageName());
+        assertEquals("com.example.pint", appContext.getPackageName());
     }
 }

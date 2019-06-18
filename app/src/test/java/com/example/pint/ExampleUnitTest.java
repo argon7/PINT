@@ -1,4 +1,4 @@
-package com.example.ipv_pint;
+package com.example.pint;
 
 import org.junit.Test;
 
