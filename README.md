@@ -31,4 +31,6 @@ Valid until: Monday, April 12, 2049
 >Facebook<br>
 keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64<br>
 Enter keystore password:  123bb<br>
-ga0RGNYHvNM5d0SLGQfpQWAPGJ8=
+ga0RGNYHvNM5d0SLGQfpQWAPGJ8=<br><br>
+//android<br>
+GDJJturmHN8Avsponx4t49mhUk4=

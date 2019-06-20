@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    TextView esqpass, registar, login;
+    TextView esqpass, registar, login,QRGen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
         registar = (TextView) findViewById(R.id.btnRegistar);
         login = (TextView) findViewById(R.id.btnLogin);
 
+
         final Intent esq = new Intent(this, EsquecerPasswordActivity.class);
         final Intent reg = new Intent(this, RegistarActivity.class);
         final Intent log = new Intent(this, HomeActivity.class);
@@ -95,6 +96,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(log);
             }
         });
+
+
+        //QR
+        QRGen = (TextView) findViewById(R.id.QRGen);
+        final Intent qr = new Intent(this, GeneratorActivity.class);
+        QRGen.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(qr);
+            }
+        });
+        //...QR
+
     }
 
     private void showSignInOptions() {
@@ -118,6 +131,16 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "" + user.getEmail(), Toast.LENGTH_SHORT).show();
                 //set buton signout
                 btn_sign_out.setEnabled(true);
+                //intent?
+                final Intent lol = new Intent(this, HomeActivity.class);
+
+
+                esqpass.setOnClickListener(new View.OnClickListener() {
+                    public void onClick(View v) {
+                        startActivity(lol);
+                    }
+                });
+
             }
             else
             {

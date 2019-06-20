@@ -276,12 +276,21 @@
                 android:id="@+id/btn_sign_out_ac"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="31dp"
-                android:layout_marginLeft="31dp"
-                android:layout_marginBottom="43dp"
+                android:layout_marginBottom="68dp"
                 android:text="btn_sign_out_ac"
                 app:layout_constraintBottom_toBottomOf="@+id/imgvw"
                 app:layout_constraintStart_toStartOf="@+id/imgvw" />
+
+            <Button
+                android:id="@+id/QRGen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="1dp"
+                android:text="Button"
+                app:layout_constraintBottom_toBottomOf="@+id/imgvw"
+                app:layout_constraintStart_toStartOf="@+id/bytes" />
 
         </android.support.constraint.ConstraintLayout>
     </ScrollView>

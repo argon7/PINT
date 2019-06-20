@@ -282,6 +282,14 @@
                 app:layout_constraintEnd_toEndOf="@+id/imgvw"
                 app:layout_constraintTop_toTopOf="@+id/imgvw" />
 
+            <Button
+                android:id="@+id/QRGen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                tools:layout_editor_absoluteX="272dp"
+                tools:layout_editor_absoluteY="123dp" />
+
         </android.support.constraint.ConstraintLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
