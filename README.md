@@ -1,4 +1,17 @@
 # PINT
+
+
+<bold>Funcionalidades para depois integrar com as views<bold>
+ 
+#LOGIN/REGISTO/AUTH --- OK<br>
+#QR --- NO<br>
+#MAPAS --- NO <br>
+#Realtime DB --- NO <br>
+
+
+
+
+
 <bold>Informação acerca do projecto<bold>
   
 #SERVER CREDENTIALS<br>
