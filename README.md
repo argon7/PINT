@@ -47,3 +47,11 @@ Enter keystore password:  123bb<br>
 ga0RGNYHvNM5d0SLGQfpQWAPGJ8=<br><br>
 //android<br>
 GDJJturmHN8Avsponx4t49mhUk4=
+
+
+
+#google APIkey<br>
+AIzaSyAfvPBlJNc-JQidqrOTJwMv4RTTEleM3G8<br>
+
+min. map <br>
+1:14:35
