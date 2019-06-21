@@ -46,8 +46,23 @@ dependencies {
     //QR CODE
     implementation 'com.google.zxing:core:3.2.1'
     implementation 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
+    //
 
+    //KARUMI DEXTER --- PERMISSIONS
+    implementation 'com.karumi:dexter:5.0.0'
+    //
 
+    //MAPS
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    //
+
+    //MATERIAL SEARCH BAR
+    implementation 'com.github.mancj:MaterialSearchBar:0.8.2'
+    //
+
+    //GOOGLE PLACES
+    implementation 'com.google.android.libraries.places:places:1.1.0'
+    //
 }
 apply plugin: 'com.google.gms.google-services'  // Google Play services Gradle plugin
 

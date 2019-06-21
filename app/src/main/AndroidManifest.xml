@@ -3,6 +3,7 @@
     package="com.example.pint">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GeneratorActivity"></activity>
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAfvPBlJNc-JQidqrOTJwMv4RTTEleM3G8"/>
+
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/title_activity_map"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".PermissionsActicity" />
+        <activity android:name=".GeneratorActivity" />
         <activity android:name=".MensagemActivity" />
         <activity android:name=".AcercaActivity" />
         <activity android:name=".PermissoesActivity" />

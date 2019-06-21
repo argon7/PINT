@@ -4,7 +4,7 @@
 <bold>Funcionalidades para depois integrar com as views<bold>
  
 #LOGIN/REGISTO/AUTH --- OK<br>
-#QR --- NO<br>
+#QR --- OK<br>
 #MAPAS --- NO <br>
 #Realtime DB --- NO <br>
 

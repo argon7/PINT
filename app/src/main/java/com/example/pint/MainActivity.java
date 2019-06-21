@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     TextView esqpass, registar, login,QRGen;
+    Button mapbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -107,6 +108,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //...QR
+
+
+        //MAPS
+        mapbtn= findViewById(R.id.mapbtn);
+        final Intent perms = new Intent(this, PermissionsActicity.class);
+        mapbtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(perms);
+            }
+        });
+        //...MAPS
 
     }
 
