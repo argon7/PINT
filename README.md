@@ -5,9 +5,13 @@
  
 #LOGIN/REGISTO/AUTH --- OK<br>
 #QR --- OK<br>
-#MAPAS --- NO <br>
-#Realtime DB --- NO <br>
+#MAPAS --- OK <br>
+#Realtime DB --- (integrado com o mapa, não esta mas tem de ser feito por ultimo) <br>
 
+
+__________________________ <br>
+cenas extra<br>
+action bar
 
 
 
