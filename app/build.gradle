@@ -63,6 +63,10 @@ dependencies {
     //GOOGLE PLACES
     implementation 'com.google.android.libraries.places:places:1.1.0'
     //
+
+    //RIPLE SKYFISH
+    implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
+    //
 }
 apply plugin: 'com.google.gms.google-services'  // Google Play services Gradle plugin
 
